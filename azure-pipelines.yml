@@ -12,7 +12,7 @@ pool:
     - agent.name -equals windows-b2s-agent
 
 steps:
-- task: Maven@3
+- task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx1024m'
